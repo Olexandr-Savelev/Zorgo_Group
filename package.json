@@ -17,7 +17,7 @@
     "gulp-uglify-es": "^2.0.0"
   },
   "dependencies": {
-    "@fancyapps/ui": "^4.0.0",
+    "@fancyapps/fancybox": "^3.5.7",
     "bootstrap": "^5.1.0",
     "del": "^6.0.0",
     "slick-carousel": "^1.8.1",
