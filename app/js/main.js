@@ -37,9 +37,11 @@ $('.certificates__slider').slick({
 
 $('.reviews__slider').slick({
     dots: false,
-    infinite: true,
+    // infinite: true,
     speed: 500,
     slidesToShow: 1,
     prevArrow: '<button type="button" class="reviews__slider-arrows reviews__slider-arrow-prev"><img src="../images/arrowPrev2.svg"></img></button>',
     nextArrow: '<button type="button" class="reviews__slider-arrows reviews__slider-arrow-next"><img src="../images/arrowNext2.svg"></img></button>',
+    centerMode: true,
+    centerPadding: '100px',
 });
