@@ -1,2 +1,4 @@
 /node_modules
 /dist
+/app/**/*.min.css
+/app/**/*.min.js
