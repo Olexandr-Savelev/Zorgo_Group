@@ -1,3 +1,14 @@
+// const { on } = require("gulp");
+
+// (function () {
+//     console.log(11111)
+// })()
+
+$('.burger').on('click', () => {
+    $('.header').toggleClass('_open-menu')
+    $('body').toggleClass('modal-open')
+})
+
 $('.certificates__slider').slick({
     infinite: true,
     speed: 300,

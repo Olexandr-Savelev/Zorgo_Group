@@ -29,14 +29,37 @@
                     <a href="#" class="header__call">Заказать звонок</a>
                     <a href="#" class="header__btn">Скачать каталог</a>
                     <a href="#" class="burger">
-                        <img src="./images/icons/burger.svg" alt="burger">
+                        <img class="burger__default" src="./images/icons/burger.svg" alt="burger">
+                        <img class="burger__cross" src="./images/burger_menu_cross.png" alt="btn">
                     </a>
                 </div>
             </div>
-
+            <div class="menu_burger">
+                <ul class="menu_burger__list">
+                    <!-- <img class="menu_burger__cross" src="./images/burger_menu_cross.png" alt="btn"> -->
+                    <li class="menu_burger__link">
+                        <a class="menu_burger__link-ref" href="#">Каталог</a>
+                    </li>
+                    <li class="menu_burger__link">
+                        <a class="menu_burger__link-ref" href="#">Сертификаты</a>
+                    </li>
+                    <li class="menu_burger__link">
+                        <a class="menu_burger__link-ref" href="#">Доставка и оплата</a>
+                    </li>
+                    <li class="menu_burger__link">
+                        <a class="menu_burger__link-ref" href="#">О компании</a>
+                    </li>
+                    <li class="menu_burger__link">
+                        <a class="menu_burger__link-ref" href="#">Клиенты и отзывы</a>
+                    </li>
+                    <li class="menu_burger__link">
+                        <a class="menu_burger__link-ref" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
         </header>
         <div class="hero">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="banner">
                     <div class="banner__left">
                         <h1 class="banner__heading">Изготавливаем и поставляем СИЗ широкого назначения и любых видов
@@ -44,7 +67,8 @@
                         <p class="banner__text">Для производств, промышленности, медицинских, образовательных,
                             государственных или иных учреждений, а также для бытовых нужд. В том числе СИЗ от COVID-19
                         </p>
-                        <a href="#" class="banner__btn">Получить коммерческое предложение</a>
+                        <span data-bs-toggle="modal" data-bs-target="#myModal" class="banner__btn">Получить
+                            коммерческое предложение</span>
                     </div>
                     <div class="banner__right">
                         <img class="banner__image" src="images/doctor.png" alt="doctor_image">
@@ -373,6 +397,22 @@
             </div>
         </div>
     </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, totam quia velit tenetur optio
+                    deleniti?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="js/main.min.js"></script>
 </body>
 
